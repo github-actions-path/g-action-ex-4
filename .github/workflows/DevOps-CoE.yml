@@ -38,9 +38,6 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest
-        - name: Test with pytest
-        run: |
           python -m pytest --verbose --junit-xml=junit.xml
     - name: Publish Test Report
       uses: mikepenz/action-junit-report@v3
