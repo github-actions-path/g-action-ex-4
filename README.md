@@ -1,4 +1,3 @@
-+
 # Permissions for Checks
 Permissions are needed to update the Actions interface.  Permissions can be added under the `job` section for a specific job, or at the top of a workflow so all jobs assume the permission.
 
@@ -33,4 +32,4 @@ to:
         detailed_summary: true
         include_passed: true
 
-A complete workflow is located here: [./DevOps-CoE.yml](./DevOps-CoE.yml)
+A complete workflow is located here: [https://github.com/github-actions-path/g-action-ex-4/edit/devops/.github/workflows/DevOps-CoE.yml](./DevOps-CoE.yml)
