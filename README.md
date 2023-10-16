@@ -1,5 +1,4 @@
-# 02_04 CI for Python
-
++
 # Permissions for Checks
 Permissions are needed to update the Actions interface.  Permissions can be added under the `job` section for a specific job, or at the top of a workflow so all jobs assume the permission.
 
@@ -34,4 +33,4 @@ to:
         detailed_summary: true
         include_passed: true
 
-A complete workflow is located here: [./python-ci-workflow.yml](./python-ci-workflow.yml)
+A complete workflow is located here: [./DevOps-CoE.yml](./DevOps-CoE.yml)
