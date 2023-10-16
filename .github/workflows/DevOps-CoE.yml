@@ -6,8 +6,9 @@ name: Python application
 on:
   push:
     branches: [ "devops" ]
-  pull_request:
-    branches: [ "devops" ]
+  #pull_request:
+  #  branches: [ "devops" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
